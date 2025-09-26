@@ -6,7 +6,7 @@ A modern, responsive website for Designer Carpets, showcasing custom rug and car
 
 ## 🌐 Live Demo
 
-[Visit the Live Site](https://your-deployed-url.com) <!-- Replace with your actual deployed URL -->
+[Visit the Live Site](https://profian1.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/) 
 
 ## 🎯 Purpose
 
@@ -109,7 +109,7 @@ git push -u origin main
 **InacTech**
 
 - Project Creator & Developer
-- Email: [your-ianngechu247@gmail.com]
+- Email: [ianngechu247@gmail.com]
 
 ---
 
