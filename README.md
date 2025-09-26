@@ -1,90 +1,116 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Designer Carpets - Custom Rug Design Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## 📋 Project Description
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+A modern, responsive website for Designer Carpets, showcasing custom rug and carpet designs. Features a vibrant color palette, intuitive navigation, and seamless WhatsApp integration for client inquiries. Built with clean code and modern web standards.
+
+## 🌐 Live Demo
+
+[Visit the Live Site](https://your-deployed-url.com) <!-- Replace with your actual deployed URL -->
+
+## 🎯 Purpose
+
+This project serves as a professional portfolio/website for a custom carpet design company. It demonstrates high-quality, handcrafted rug designs through an elegant online presence. It highlights modern UI/UX principles, responsive design, and effective user engagement strategies.
+
+## 📄 Page Breakdown
+
+### 🏠 Home (index.html)
+
+- **Hero Section**: Large background image with compelling headline and call-to-action
+- **Intro Section**: 2-column layout with company image and craftsmanship overview
+- **Features**: 3-card grid highlighting quality, materials, and craftsmanship
+- **Gallery Preview**: 4 featured carpet images with link to full gallery
+- **WhatsApp Chat**: Direct contact button for instant customer service
+
+### ℹ️ About (about.html)
+
+- **Hero Banner**: Clean page introduction
+- **Our Story**: Text-based section about company history
+- **Our Process**: 4-step process with icons (Design Consultation, Pattern Creation, Handweaving, Delivery)
+- **Our Values**: 3-value cards (Quality, Sustainability, Creativity)
+- **WhatsApp Integration**: Chat section for inquiries
+
+### 🖼️ Gallery (gallery.html)
+
+- **Image Grid**: 20+ carpet design images in responsive masonry layout
+- **Hover Effects**: Smooth transitions on gallery items
+- **WhatsApp CTA**: Integrated chat button
+- **No Overlays**: Clean image presentation
+
+### 📞 Contact (contact.html)
+
+- **Contact Information**: Phone, email, and location details
+- **WhatsApp Button**: Prominent green chat button with icon
+- **Clean Layout**: Focused on key communication channels
+
+## 🛠️ Tech Stack
+
+- **HTML5**: Semantic markup for structure
+- **CSS3**: Custom styles with CSS Variables for consistency
+  - Responsive Grid and Flexbox layouts
+  - Smooth animations and hover effects
+  - Poppins font from Google Fonts
+- **JavaScript**: Vanilla JS for interactive elements
+  - Mobile menu toggle
+  - Navigation helpers
+
+## 📁 Project Structure
+
+```
+designer-carpets/
+│
+├── index.html           # Home page
+├── about.html           # About company page
+├── gallery.html         # Full design gallery
+├── contact.html         # Contact information
+│
+├── css/
+│   ├── style.css        # Main stylesheet (CSS Variables, responsive styles)
+│   └── responsive.css   # Additional responsive breakpoints
+│
+├── js/
+│    └── main.js          # Interactive functionality (menu toggle)
+│
+│
+└── README.md           # Project documentation
+```
+
+## 🚀 Deployment Instructions
+
+## GitHub Pages
+
+1. Push your code to a GitHub repository
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/designer-carpets.git
+git push -u origin main
+```
+
+2. Go to Settings > Pages
+3. Select "Deploy from a branch" > Branch: main > /root
+4. Your site will be live at: `https://yourusername.github.io/designer-carpets/`
+
+## ✨ Key Features
+
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile
+- **WhatsApp Integration**: Direct messaging for customer inquiries
+- **Modern Color Palette**: Deep Charcoal, Warm Beige, Terracotta accents
+- **Grid & Flexbox Layouts**: Professional, scalable design
+- **Accessibility**: Semantic HTML, good contrast, keyboard navigation
+- **Security Ready**: HTTPS links, secure external references
+- **Clean Code**: Organized CSS variables, reusable components
+
+## 👤 Author
+
+**InacTech**
+
+- Project Creator & Developer
+- Email: [your-ianngechu247@gmail.com]
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Built with ❤️ for custom carpet design showcase.\_
